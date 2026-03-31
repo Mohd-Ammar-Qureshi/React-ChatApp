@@ -2,6 +2,10 @@
 
 A modern chat application built using React and TailwindCSS that supports multi-user chatting and an AI-powered chatbot.
 
+🌐 Live Demo
+
+https://project-iotrb-fq97fieec-mohd-ammar-qureshis-projects.vercel.app/
+
 ## 🚀 Features
 
 - 👥 Multiple chat users
@@ -60,11 +64,5 @@ This project demonstrates how to build a multi-user chat application using React
 - ☁️ Backend (Node.js / Firebase)
 - 📎 File & image sharing
 - 🌙 Dark mode
-
-## 📸 Screenshots
-
-![Chat UI](./screenshots/chat.png)
-
-## 👨‍💻 Author
 
 Mohd Ammar Qureshi
