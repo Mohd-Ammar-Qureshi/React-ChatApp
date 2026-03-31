@@ -102,8 +102,8 @@ const [confirmDelete, setconfirmDelete] = useState(false);
   // 🔥 simple math (bonus)
   try {
     if (/^[0-9+\-*/(). ]+$/.test(msg)) {
-      const result = eval(msg);
-      return `🧮 Result: ${result}`;
+    const result = Function(`"use strict"; return (${msg})`)();
+    return `🧮 Result: ${result}`;
     }
   } catch (e) {}
 
