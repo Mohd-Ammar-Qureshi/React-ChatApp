@@ -4,7 +4,7 @@ A modern chat application built using React and TailwindCSS that supports multi-
 
 🌐 Live Demo
 
-https://project-iotrb-fq97fieec-mohd-ammar-qureshis-projects.vercel.app/
+https://project-iotrb.vercel.app/
 
 ## 🚀 Features
 
