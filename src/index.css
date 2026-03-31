@@ -1,0 +1,76 @@
+@import "tailwindcss";
+/* Reset */
+
+/* Root Theme Colors */
+:root {
+  --bg-main: #1e1e1e;
+  --bg-sidebar: #252526;
+  --bg-card: #2d2d2d;
+  --text-main: #ffffff;
+  --text-secondary: #b0b0b0;
+  --border-color: #3c3c3c;
+  --accent: #4cafef;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: var(--bg-sidebar);
+  border-right: 1px solid var(--border-color);
+}
+/* 🔹 Sidebar Scrollbar */
+.sidebar::-webkit-scrollbar {
+  width: 3px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* Chat Area */
+.chatbox {
+  background-color: var(--bg-main);
+}
+
+
+/* Inputs */
+input {
+  background-color: #3a3a3a;
+  border: 1px solid var(--border-color);
+  color: white;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: var(--text-secondary);
+}
+
+/* Scrollbar (optional but cool) */
+ ::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.4);
+}
